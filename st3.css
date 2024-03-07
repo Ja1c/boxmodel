@@ -1,0 +1,36 @@
+.borderline{
+    border: 3px solid rgb(82, 189, 153);
+    margin-top: 5px;
+}
+
+header{
+    width: 99.7%;
+    height: 100px;
+}
+
+nav{
+    width: 99.7%;
+    height: 100px;
+}
+
+main{
+    width: 56.5%;
+    height: 64vh;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 500px; 
+}
+
+aside{
+    float: left;
+    width: 21%;
+    height: 64vh;
+    line-height: 500px; 
+}
+
+footer{
+    width: 99.7%;
+    height: 100px;
+    float: left;
+}
