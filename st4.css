@@ -28,7 +28,7 @@ nav{
     background-color: rgb(185, 212, 255);
     margin: 0%;
     display: flex;
-    height: 62vh;
+    height: 75vh;
 }
 
 .left{
@@ -44,7 +44,7 @@ nav{
     margin-left: -.5px;
     border: 2px solid black;
     height: 57.7vh;
-    height: 62vh;
+    height: 75vh;
     flex: .5 .5 100px;
 }
 
@@ -52,21 +52,21 @@ nav{
 .picture{
     float: left;
     width: 31%;
-    height: 200px;
+    height: 325px;
     background-color: rgb(185, 212, 255);
     border: 2px solid black;
-    margin: 8.8px;
+    margin: 10px;
     margin-right: 5px;
     margin-left: 15px;
 }
 
 .about{
     float: left;
-    width: 60.2%;
-    height: 200px;
+    width: 61%;
+    height: 325px;
     background-color: rgb(185, 212, 255);
     border: 2px solid black;
-    margin: 8.5px;
+    margin: 10px;
     margin-left: 5px;
     
 }
@@ -74,10 +74,10 @@ nav{
 .tweets{
     float: left;
     width: 94%;
-    height: 140px;
+    height: 340px;
     background-color: rgb(185, 212, 255);
     border: 2px solid black;
-    margin: 2px;
+    margin: 10px;
     margin-left: 15px;
     
 }
