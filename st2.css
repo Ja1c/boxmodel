@@ -4,25 +4,25 @@
 }
 
 header{
-    width: 99.5%;
-    height: 100px;
+    width: 99.1%;
+    height: 85px;
 }
 
 nav{
-    width: 99.5%;
-    height: 100px;
+    width: 99.1%;
+    height: 85px;
 }
 
 aside{
     float: left;
-    width: 49.4%;
-    height: 63vh;
-    margin-right: 5px;
-    line-height: 500px; 
+    width: 49.1%;
+    height: 60vh;
+    margin-right: 6px;
+    line-height: 300px; 
 }
 
 footer{
-    width: 99.5%;
-    height: 100px;
+    width: 99.1%;
+    height: 85px;
     float: left;
 }
