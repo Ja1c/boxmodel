@@ -14,12 +14,12 @@ body{
 }
 
 header{
-    border: 2px solid  rgb(82, 189, 153);
+    border: 3px solid  rgb(82, 189, 153);
     padding: 1em 0 1em 0;
 }
 
 nav{
-    border: 2px solid  rgb(82, 189, 153);
+    border: 3px solid  rgb(82, 189, 153);
     padding: 1em 0 1em 0;
 }
 
@@ -32,19 +32,19 @@ nav{
 }
 
 .A{
-    border: 2px solid  rgb(82, 189, 153);
+    border: 3px solid  rgb(82, 189, 153);
     padding: 1em 0 1em 0;
     flex-basis: 50%;
 }
 
 .B{
-    border: 2px solid  rgb(82, 189, 153);
+    border: 3px solid  rgb(82, 189, 153);
     padding: 1em 0 1em 0;
     flex-basis: 50%;
 }
 
 footer{
-    border: 2px solid  rgb(82, 189, 153);
+    border: 3px solid  rgb(82, 189, 153);
     padding: 1em 0 1em 0;
 }
 

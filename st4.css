@@ -57,7 +57,7 @@ nav{
 
 .picture{
     width: 30%;
-    height: 200px;
+    height: 310px;
     background-color: rgb(82, 189, 153);
     border: 2px solid black;
     margin: 10px;
@@ -67,7 +67,7 @@ nav{
 
 .about{
     width: 70%;
-    height: 200px;
+    height: 310px;
     background-color: rgb(82, 189, 153);
     border: 2px solid black;
     margin: 10px;
@@ -82,7 +82,7 @@ nav{
 
 .tweets{
     width: 100%;
-    height: 255px;
+    height: 380px;
     background-color: rgb(82, 189, 153);
     border: 2px solid black;
     margin: 10px; 
