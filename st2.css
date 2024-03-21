@@ -1,28 +1,53 @@
-.borderline{
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Apply a border to all elements with the .borderline class */
+.borderline {
     border: 3px solid rgb(82, 189, 153);
     margin-top: 5px;
 }
 
-header{
-    width: 99.1%;
+/* Set widths for header, nav, aside, and footer */
+header, nav, aside, footer {
+    width: 99.5%; /* Occupy the whole screen */
+}
+
+/* Set heights for header, nav, and footer */
+header, nav, footer {
     height: 85px;
 }
 
-nav{
-    width: 99.1%;
-    height: 85px;
-}
-
-aside{
+/* Set styles for the aside */
+aside {
     float: left;
-    width: 49.1%;
+    width: 49.5%;
     height: 60vh;
-    margin-right: 6px;
-    line-height: 300px; 
+    margin-right: 0.5%; /* Adjusted to ensure both elements fit in the container */
+    line-height: 300px;
+    margin-bottom: 5px;
+    margin-bottom: 5px; /* Add margin between aside and footer */
 }
 
-footer{
-    width: 99.1%;
-    height: 85px;
-    float: left;
+/* Set styles for the footer */
+footer {
+    margin-top: 5px; /* Adjusted margin to create space between aside and footer */
+    clear: both; /* Clear floats to ensure proper placement */
+}
+
+/* Media Query for Tablets (768px and below) */
+@media (max-width: 300px) {
+    /* Adjust width and margin for aside and footer */
+    aside, footer {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    /* Reset styles for the aside */
+    aside {
+        height: auto;
+        float: none;
+        margin-bottom: 5px;
+    }
 }
