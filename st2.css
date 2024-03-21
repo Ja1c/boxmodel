@@ -1,53 +1,58 @@
-/* Set box-sizing to border-box for all elements */
-* {
+*{
+    margin: 5px;
     box-sizing: border-box;
 }
 
-/* Apply a border to all elements with the .borderline class */
-.borderline {
-    border: 3px solid rgb(82, 189, 153);
-    margin-top: 5px;
+body{
+    height: 97vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: olivedrab;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
 }
 
-/* Set widths for header, nav, aside, and footer */
-header, nav, aside, footer {
-    width: 99.5%; /* Occupy the whole screen */
+header{
+    border: 2px solid  rgb(82, 189, 153);
+    padding: 1em 0 1em 0;
 }
 
-/* Set heights for header, nav, and footer */
-header, nav, footer {
-    height: 90px;
+nav{
+    border: 2px solid  rgb(82, 189, 153);
+    padding: 1em 0 1em 0;
 }
 
-/* Set styles for the aside */
-aside {
-    float: left;
-    width: 49.5%;
-    height: 60vh;
-    margin-right: 0.5%; /* Adjusted to ensure both elements fit in the container */
-    line-height: 300px;
-    margin-bottom: 5px;
-    margin-bottom: 5px; /* Add margin between aside and footer */
+.main{
+    margin: 0%;
+    display: flex;
+    flex: 1;
+    line-height: 320px;
+    flex-wrap: nowrap;
 }
 
-/* Set styles for the footer */
-footer {
-    margin-top: 5px; /* Adjusted margin to create space between aside and footer */
-    clear: both; /* Clear floats to ensure proper placement */
+.A{
+    border: 2px solid  rgb(82, 189, 153);
+    padding: 1em 0 1em 0;
+    flex-basis: 50%;
 }
 
-/* Media Query for Tablets (768px and below) */
-@media (max-width: 300px) {
-    /* Adjust width and margin for aside and footer */
-    aside, footer {
-        width: 100%;
-        margin-right: 0;
+.B{
+    border: 2px solid  rgb(82, 189, 153);
+    padding: 1em 0 1em 0;
+    flex-basis: 50%;
+}
+
+footer{
+    border: 2px solid  rgb(82, 189, 153);
+    padding: 1em 0 1em 0;
+}
+
+@media all and (max-width: 300px){
+    .main{
+        flex-direction: column;
     }
-    
-    /* Reset styles for the aside */
-    aside {
-        height: auto;
-        float: none;
-        margin-bottom: 5px;
+    main{
+        padding: 2em 0 2em 0;
     }
 }
